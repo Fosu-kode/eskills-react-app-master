@@ -1,0 +1,35 @@
+section{
+    color:white
+}
+.main{
+    padding-top: 1rem   ;
+    display: flex;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+
+}
+.card{
+    padding: 0.5rem;
+    width:300px;
+    height:300px;
+    border-radius:20px;
+    background-color: white;
+    color:black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+.course-title{
+    font-weight: bold;
+    font-size: larger;
+}
+.card>div{
+    display: flex;
+    justify-content: space-between;
+}
+.department{}
+.course-code {
+    font-size: large;
+    font-weight: bolder;
+}
