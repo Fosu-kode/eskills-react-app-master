@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## To start with this repo, you first need to install all the packages needed.
+
+Run the following command.
+ ```sh 
+npm install
+# Or
+npm i
+```
+
+
 ## Available Scripts
 
 In the project directory, you can run:
