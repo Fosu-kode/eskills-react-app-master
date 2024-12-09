@@ -3,6 +3,8 @@ import { modelDepartmentCourses } from "../utils/constants";
 import { useState } from "react";
 import { useParams } from "react-router-dom";
 
+// Made the course.js to show courses offered by a specific department
+
 function Course(props) {
   const { departmentId } = useParams();
   const [courses, setCourses] = useState(

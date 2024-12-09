@@ -17,7 +17,7 @@ const DepartmentView = ({ closeDepartmentView, department }) => {
             <p>
               <strong>Department:</strong> {department.department_name}
             </p>
-
+            {/*modified the department view to show a link which will move to the specific department and show its courses*/}
             <Link to={`/MainPage/courses/${department.department_id}`}>
               Check course out
             </Link>

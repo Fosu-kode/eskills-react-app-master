@@ -1,3 +1,8 @@
+/*
+Made a constants file to contain dummy Data for the site
+ */
+
+//used in department.js
 export const modelDepartmentData = [
   { department_id: 1, department_name: "Mathematics" },
   { department_id: 2, department_name: "Statistics" },
@@ -6,6 +11,7 @@ export const modelDepartmentData = [
   { department_id: 5, department_name: "French" },
 ];
 
+// used in courses.js to find the course related to the department defined
 export const modelDepartmentCourses = [
   {
     department_id: 1,
